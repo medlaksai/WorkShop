@@ -1,6 +1,4 @@
-const prompt = require (prompt("prompt-sync"))();
+const prompt = require ("prompt-sync")();
 
-let num = parseInt(prompt("Enter Your Numbers :"));
-
-let resault = 0;
-
+let num = parseInt(prompt("Enter a multi-digit integer:"));
+let reverse = 0;
